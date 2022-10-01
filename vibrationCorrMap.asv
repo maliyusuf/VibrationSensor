@@ -1,0 +1,23 @@
+function vibrationCorrMap
+
+dataTotal = [10.938	13.135	0.000	8.447;
+            22.461	14.014	0.000	8.057;
+            11.426	14.307	5.078	7.422;
+            10.645	14.795	6.055	15.820];
+
+data_NoWater_Water_NoForce = [10.938	0.000;
+                            22.461	0.000;
+                            11.426	5.078;
+                            10.645	6.055];
+
+dataXYZ_NoWater_NoForce = [ 0.000	10.938	10.938;
+                            11.230	11.230	22.461;
+                            11.377	11.377	11.426;
+                            0.000	10.645	10.645];
+
+dataXYZ_NoWater_WithForce = [ 
+
+
+% corrmap(data_NoWater_Water_NoForce)
+% corrmap(dataTotal)
+corrmap(dataXYZ_NoWater_NoForce)
